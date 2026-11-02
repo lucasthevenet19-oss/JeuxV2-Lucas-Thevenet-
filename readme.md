@@ -13,29 +13,35 @@
 
 # Player 
     # Crée  player : Pokémon 
-        # Dracaufeu, Tortank, Florizarre
-    # Crée player ennemie : Pokémon 
-        # Mewtwo, Nidoking, Métalosse, Ursaring 
+        # Dracaufeu, Tortank, Florizarre, Dracolosse, Lokhlass
+        # choix de 2 player  
+    # Crée player2 : Pokémon ennemie 
+        # Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui  
         # Apparaisent de façon aléatoire  
     # Crée ses Stats
-        # Attaque, Défense, PV, attaque spécial 
+        # Attaque, Défense, PV, vitesse et attaque spécial 
 # Combat 
-    # Crée des tour : tour 1, 2 ....
-        # Afficher les PV actif et les stats des deux Pokémons 
-        # Chosir une option 
-            # Attaquer  
-                # Choix attaques 
-            # Utiliser un attaque spécial 
-                # Une seul fois par combat 
-            # Utiliser une potion 
-                # Une seul fois par combat et rapporte 25 PV 
-            # Fouir 
+    # Apparition du pokémon ennemie
+    # 1 seul manche 
+        # Plusieur tour :jusqu'a temps que l'un des pokémon et mis K.O
+        # Le pokémon avec le plus de vitesse commence 
+            # Afficher les PV actif et des deux Pokémons 
+            # Chosir une option 
+                # Attaquer  
+                    # 1 seule attaque 
+                # Utiliser une attaque spécial 
+                    # Une seul fois par combat 
+                # Utiliser une potion 
+                    # Une seul fois par combat et rapporte 25 PV mais n'attaque pas pendant le tour 
+                # Utiliser un rappel 
+                    # Une seul fois par combat et fais revivre un pokémon et il aura la moitier de ses pv 
+                # Changer de Pokémon 
+                    # Autant de changement possibles mais n'attaque pas pendant le tour du changement 
+                # Fuir
+
+        
 
 # Fin du combat     
     # Victoire 
     # Défaite 
     # Recommencer
-
-
-# Enregistrer sur la base de données 
-    Plus tard 
