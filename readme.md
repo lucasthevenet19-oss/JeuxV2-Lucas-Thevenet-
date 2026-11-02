@@ -6,17 +6,20 @@
 
 # Menu de démarrage 
     # Démarer ou arréter le jeux 
-    # Choisir son pokémon 
+    # Choisir son pokémon
+        # CHOIX 1
+        # CHOIX 2
+        # CHOIX 3
 
 # Player 
-    #Crée de player : Pokémon 
-        #Il y en aura 5 : Dracaufeu, Tortank, Florizarre, Mewtwo et Pikachu 
+    #Crée  player : Pokémon 
+        # Il y en aura 5 : Dracaufeu, Tortank, Florizarre
     Crée ses Stats
-        # Attaque, Défense, PV 
+        # Attaque, Défense, PV, attaque special 
 # Combat 
     # Crée des tour : tour 1, 2 ....
     # Attaquer  
-        # Quelles attaques 
+        # Choix attaques 
     # Fouir 
 
 # Fin du combat     
