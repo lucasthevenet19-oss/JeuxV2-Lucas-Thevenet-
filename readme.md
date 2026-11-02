@@ -14,7 +14,12 @@
     Crée ses Stats
         # Attaque, Défense, PV 
 # Combat 
-    # Attaquer 
+    # Crée des tour : tour 1, 2 ....
+    # Attaquer  
+        # Quelles attaques 
     # Fouir 
 
 # Fin du combat     
+    # Victoire 
+    # Défaite 
+    # Recommencer
