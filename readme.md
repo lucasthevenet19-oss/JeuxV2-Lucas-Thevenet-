@@ -18,10 +18,10 @@
         # Mewtwo, Nidoking, Métalosse, Ursaring 
         # Apparaisent de façon aléatoire  
     # Crée ses Stats
-        # Attaque, Défense, PV, attaque special 
+        # Attaque, Défense, PV, attaque spécial 
 # Combat 
     # Crée des tour : tour 1, 2 ....
-        # Afficher les PV actif deux Pokémon 
+        # Afficher les PV actif et les stats des deux Pokémons 
         # Chosir une option 
             # Attaquer  
                 # Choix attaques 
