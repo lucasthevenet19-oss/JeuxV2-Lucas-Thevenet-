@@ -1,6 +1,6 @@
 # Jeux Python 
 
-# But du jeu : Crée un jeux de combat en pokémon 
+# But du jeu : Crée un jeux pokémon 
 
 # Etapes de la méthode 
 
@@ -15,8 +15,10 @@
 # Player 
 
     # Crée des Pokémon avec leur stats (PV, Attaque, Défense, Attaque spécial)
-    # Crée Joueur (Dracaufeu, Tortank, Florizarre, Dracolosse, Lokhlass) : en choissir deux 
+    # Crée Joueur (Dracaufeu, Tortank, Florizarre, Dracolosse, Lokhlass) 
+        # Choissir deux pokémon 
     # Crée ennemie (Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui) 
+        # Aparait au hazard
 
 
 # Combat 
@@ -37,65 +39,14 @@
         # recuperer un choix valide (1,2)
             # Attaquer 
             # Utiliser un attaque spécial
-    # Si mon pokémon est K.O :défaite 
+            # Aléatoire 
+        # Le pokémon ennemie = defaite 
 
 
 # Fin de combat 
 
     # Victoire ou défaite 
     # Recommencer 
-    
-    
-    
-        
 
 
 
-
-
-# Pour moi 
-
-
-
-# Player 
-    # Crée  player : Pokémon 
-        # Dracaufeu, Tortank, Florizarre, Dracolosse, Lokhlass
-        # choix de 2 player  
-    # Crée player2 : Pokémon ennemie 
-        # Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui  
-        # Apparaisent de façon aléatoire  
-    # Crée ses Stats
-        # Attaque, Défense, PV et attaque spécial 
-
-# Combat 
-    # Apparition du pokémon ennemie
-    # 1 seul manche 
-        # Plusieur tour : jusqu'a temps que l'un des pokémon et mis K.O
-        # Afficher les PV actif et des deux Pokémons 
-            # Le Pokémon allier commence 
-            # Chosir une option 
-                # Attaquer  
-                    # 1 seule attaque 
-                # Utiliser une attaque spécial 
-                    # Une seul fois par combat 
-                # Utiliser une potion 
-                    # Une seul fois par combat et rapporte 25 PV mais n'attaque pas pendant le tour 
-                # Utiliser un rappel 
-                    # Une seul fois par combat et fais revivre un pokémon et il aura la moitier de ses pv 
-                # Changer de Pokémon 
-                    # Autant de changement possibles mais n'attaque pas pendant le tour du changement 
-                # Fuir
-            # Le Pokémon ennemi suit 
-            # Choisir une option 
-                # Attaquer 
-                    # Une seul attaque 
-                # Utiliser une attaque special 
-                    # Une seul fois par combat et rapporte 25 PV mais n'attaque pas pendant le tour 
-                # Tous ca de façon aléatoire 
-
-        
-
-# Fin du combat     
-    # Victoire 
-    # Défaite 
-    # Recommencer
