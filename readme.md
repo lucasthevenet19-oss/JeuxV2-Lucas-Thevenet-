@@ -19,10 +19,9 @@
       # Boucle
         # Afficher les Pokémon qui restent
         # Récupérer un choix valide (min, max)
-            # Tant que le choix n'est pas valide 
     # Ajouter le pokémon a mon équipe
     # Enlever le pokémon a la liste 
-
+        # Arrete quand on a deux pokémon
     # Crée ennemie (Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui) 
         # Aparait au hazard
 
