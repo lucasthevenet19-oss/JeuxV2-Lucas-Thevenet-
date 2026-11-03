@@ -16,7 +16,13 @@
 
     # Crée des Pokémon avec leur stats (PV, Attaque, Défense, Attaque spécial)
     # Crée Joueur (Dracaufeu, Tortank, Florizarre, Dracolosse, Lokhlass) 
-        # Choissir deux pokémon 
+      # Boucle
+        # Afficher les Pokémon qui restent
+        # Récupérer un choix valide (min, max)
+            # Tant que le choix n'est pas valide 
+    # Ajouter le pokémon a mon équipe
+    # Enlever le pokémon a la liste 
+
     # Crée ennemie (Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui) 
         # Aparait au hazard
 
@@ -47,6 +53,3 @@
 
     # Victoire ou défaite 
     # Recommencer 
-
-
-
