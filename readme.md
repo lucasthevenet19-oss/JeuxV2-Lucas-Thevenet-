@@ -5,10 +5,11 @@
 # Etapes de la méthode 
 
 # Menu de démarrage 
-    # Démarer ou arréter le jeux 
-    # Choisir son pokémon
-        # CHOIX 1
-        # CHOIX 2
+          
+    # Boucles infini 
+        # affiche le menu 
+        # donnes un choix valide (min, max) 
+        # lancer le jeux 
 
 # Player 
     # Crée  player : Pokémon 
@@ -18,7 +19,8 @@
         # Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui  
         # Apparaisent de façon aléatoire  
     # Crée ses Stats
-        # Attaque, Défense, PV, vitesse et attaque spécial 
+        # Attaque, Défense, PV et attaque spécial 
+        
 # Combat 
     # Apparition du pokémon ennemie
     # 1 seul manche 
