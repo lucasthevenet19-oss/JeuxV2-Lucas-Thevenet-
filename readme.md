@@ -9,7 +9,6 @@
     # Choisir son pokémon
         # CHOIX 1
         # CHOIX 2
-        # CHOIX 3
 
 # Player 
     # Crée  player : Pokémon 
@@ -45,3 +44,5 @@
     # Victoire 
     # Défaite 
     # Recommencer
+
+
