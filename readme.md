@@ -8,8 +8,8 @@
           
     # Boucles infini 
         # affiche le menu 
-        # donnes un choix valide (pokemon) 
-        # lancer le jeux 
+        # recuperer un choix valide (min,max) 
+        # lancer le processus
 
 # Player 
     # Crée  player : Pokémon 
@@ -25,8 +25,8 @@
     # Apparition du pokémon ennemie
     # 1 seul manche 
         # Plusieur tour : jusqu'a temps que l'un des pokémon et mis K.O
-        # Le Pokémon allier commence 
-            # Afficher les PV actif et des deux Pokémons 
+        # Afficher les PV actif et des deux Pokémons 
+            # Le Pokémon allier commence 
             # Chosir une option 
                 # Attaquer  
                     # 1 seule attaque 
@@ -39,6 +39,12 @@
                 # Changer de Pokémon 
                     # Autant de changement possibles mais n'attaque pas pendant le tour du changement 
                 # Fuir
+            # Le Pokémon ennemi suit 
+                # Attaquer 
+                    # Une seul attaque 
+                # Utiliser une attaque special 
+                    # Une seul fois par combat et rapporte 25 PV mais n'attaque pas pendant le tour 
+                # Tous ca de façon aléatoire 
 
         
 
