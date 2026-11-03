@@ -11,6 +11,52 @@
         # recuperer un choix valide (min,max) 
         # lancer le processus
 
+
+# Player 
+
+    # Crée des Pokémon avec leur stats (PV, Attaque, Défense, Attaque spécial)
+    # Crée Joueur (Dracaufeu, Tortank, Florizarre, Dracolosse, Lokhlass) : en choissir deux 
+    # Crée ennemie (Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui) 
+
+
+# Combat 
+
+    # Afficher l'apparition de l'ennemie de facon aléatoire
+    # Boucles
+         # Game dure jusqu'a temps qu'il y a un pokémon K.O 
+         # Afficher les PV des deux pokémon         
+         # Le joueur commence 
+    # Tour du joueur 
+        # recuperer un choix valide (1,4)
+            # Attaquer 
+            # Utiliser un attaque spécial
+            # Changer de Pokémon 
+            # Fuir 
+    # Si l'ennemmie est K.O : Victoire 
+    # Tour de l'ennemie 
+        # recuperer un choix valide (1,2)
+            # Attaquer 
+            # Utiliser un attaque spécial
+    # Si mon pokémon est K.O :défaite 
+
+
+# Fin de combat 
+
+    # Victoire ou défaite 
+    # Recommencer 
+    
+    
+    
+        
+
+
+
+
+
+# Pour moi 
+
+
+
 # Player 
     # Crée  player : Pokémon 
         # Dracaufeu, Tortank, Florizarre, Dracolosse, Lokhlass
@@ -40,6 +86,7 @@
                     # Autant de changement possibles mais n'attaque pas pendant le tour du changement 
                 # Fuir
             # Le Pokémon ennemi suit 
+            # Choisir une option 
                 # Attaquer 
                     # Une seul attaque 
                 # Utiliser une attaque special 
