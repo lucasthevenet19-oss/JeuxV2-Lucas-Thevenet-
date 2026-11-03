@@ -8,7 +8,7 @@
           
     # Boucles infini 
         # affiche le menu 
-        # donnes un choix valide (min, max) 
+        # donnes un choix valide (pokemon) 
         # lancer le jeux 
 
 # Player 
@@ -20,7 +20,7 @@
         # Apparaisent de façon aléatoire  
     # Crée ses Stats
         # Attaque, Défense, PV et attaque spécial 
-        
+
 # Combat 
     # Apparition du pokémon ennemie
     # 1 seul manche 
@@ -46,5 +46,3 @@
     # Victoire 
     # Défaite 
     # Recommencer
-
-
