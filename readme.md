@@ -1,6 +1,6 @@
 # Jeux Python 
 
-# But du jeu : Crée un jeux de combat en pokémon avec des attaques, des point de vie 
+# But du jeu : Crée un jeux de combat en pokémon 
 
 # Etapes de la méthode 
 
@@ -23,8 +23,8 @@
 # Combat 
     # Apparition du pokémon ennemie
     # 1 seul manche 
-        # Plusieur tour :jusqu'a temps que l'un des pokémon et mis K.O
-        # Le pokémon avec le plus de vitesse commence 
+        # Plusieur tour : jusqu'a temps que l'un des pokémon et mis K.O
+        # Le Pokémon allier commence 
             # Afficher les PV actif et des deux Pokémons 
             # Chosir une option 
                 # Attaquer  
