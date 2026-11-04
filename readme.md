@@ -12,22 +12,23 @@
         # lancer le processus
 
 
-# Player 
+# Combat 
 
-    # Crée des Pokémon avec leur stats (PV, Attaque, Défense, Attaque spécial)
-    # Crée Joueur (Dracaufeu, Tortank, Florizarre, Dracolosse, Lokhlass) 
+    # Afficher Joueur avec leur stats 
       # Boucle
+        # Choissir Joueur 
+        # Récuperer un choix valide (1, 5)
+            # 1. Dracaufeu
+            # 2. Tortank
+            # 3. Florizarre
+            # 4. Dracolosse
+            # 5. Lokhlass
         # Afficher les Pokémon qui restent
-        # Récupérer un choix valide (min, max)
+        
     # Ajouter le pokémon a mon équipe
     # Enlever le pokémon a la liste 
         # Arrete quand on a deux pokémon
     # Crée ennemie (Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui) 
-        # Aparait au hazard
-
-
-# Combat 
-
     # Afficher l'apparition de l'ennemie de facon aléatoire
     # Boucles
          # Game dure jusqu'a temps qu'il y a un pokémon K.O 
@@ -44,7 +45,7 @@
         # recuperer un choix valide (1,2)
             # Attaquer 
             # Utiliser un attaque spécial
-            # Aléatoire 
+        # Aléatoire 
         # Le pokémon ennemie = defaite 
 
 
