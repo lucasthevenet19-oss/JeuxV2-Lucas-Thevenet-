@@ -22,29 +22,29 @@
             # 4. Dracolosse
             # 5. Lokhlass
         # Afficher les Pokémon qui restent
-        
-    # Ajouter le pokémon a mon équipe
-    # Enlever le pokémon a la liste 
+        # Ajouter le pokémon a mon équipe
+        # Enlever le pokémon a la liste 
         # Arrete quand on a deux pokémon
-    # Crée ennemie (Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui) 
+
+        # Crée ennemie (Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui) 
         # Afficher l'apparition de l'ennemie de facon aléatoire
-    # Boucles
-         # Game dure jusqu'a temps qu'il y a un pokémon K.O 
-         # Afficher les PV des deux pokémon         
-         # Le joueur commence 
-    # Tour du joueur 
-        # recuperer un choix valide (1,4)
-            # 1. Attaquer 
-            # 2. Utiliser un attaque spécial
-            # 3. Changer de Pokémon 
-            # 4. Fuir 
-    # Si l'ennemmie est K.O : Victoire 
-    # Tour de l'ennemie 
-        # recuperer un choix valide (1,2)
-            # 1. Attaquer 
-            # 2. Utiliser un attaque spécial
-        # Aléatoire 
-        # Le pokémon ennemie = defaite 
+        # Boucles
+            # Game dure jusqu'a temps qu'il y a un pokémon K.O 
+            # Afficher les PV des deux pokémon         
+            # Le joueur commence 
+            # Tour du joueur 
+                # recuperer un choix valide (1,4)
+                    # 1. Attaquer 
+                    # 2. Utiliser un attaque spécial
+                    # 3. Changer de Pokémon 
+                    # 4. Fuir 
+            # Si l'ennemmie est K.O : Victoire 
+            # Tour de l'ennemie 
+                # recuperer un choix valide (1,2)
+                    # 1. Attaquer 
+                    # 2. Utiliser un attaque spécial
+                        # Aléatoire 
+            # Si mes pokémons sont K.O : defaite 
 
 
 # Fin de combat 
