@@ -2,8 +2,6 @@
 
 # But du jeu : Crée un jeux pokémon 
 
-# Etapes de la méthode 
-
 # Menu de démarrage 
           
     # Boucles infini 
@@ -29,22 +27,22 @@
     # Enlever le pokémon a la liste 
         # Arrete quand on a deux pokémon
     # Crée ennemie (Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui) 
-    # Afficher l'apparition de l'ennemie de facon aléatoire
+        # Afficher l'apparition de l'ennemie de facon aléatoire
     # Boucles
          # Game dure jusqu'a temps qu'il y a un pokémon K.O 
          # Afficher les PV des deux pokémon         
          # Le joueur commence 
     # Tour du joueur 
         # recuperer un choix valide (1,4)
-            # Attaquer 
-            # Utiliser un attaque spécial
-            # Changer de Pokémon 
-            # Fuir 
+            # 1. Attaquer 
+            # 2. Utiliser un attaque spécial
+            # 3. Changer de Pokémon 
+            # 4. Fuir 
     # Si l'ennemmie est K.O : Victoire 
     # Tour de l'ennemie 
         # recuperer un choix valide (1,2)
-            # Attaquer 
-            # Utiliser un attaque spécial
+            # 1. Attaquer 
+            # 2. Utiliser un attaque spécial
         # Aléatoire 
         # Le pokémon ennemie = defaite 
 
