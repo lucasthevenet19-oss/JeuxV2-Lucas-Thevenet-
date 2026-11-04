@@ -13,22 +13,16 @@
 # Combat 
 
     # Afficher Joueur avec leur stats 
-      # Boucle
+      # Boucle (2 tours)
         # Choissir Joueur 
         # Récuperer un choix valide (1, 5)
-            # 1. Dracaufeu
-            # 2. Tortank
-            # 3. Florizarre
-            # 4. Dracolosse
-            # 5. Lokhlass
         # Afficher les Pokémon qui restent
         # Ajouter le pokémon a mon équipe
         # Enlever le pokémon a la liste 
-        # Arrete quand on a deux pokémon
+            # Arrete quand on a deux pokémon
 
-        # Crée ennemie (Mewtwo, Nidoking, Métalosse, Loucario, Mimiqui) 
-        # Afficher l'apparition de l'ennemie de facon aléatoire
-        # Boucles
+        # Appariton de l'ennemie de facon aléatoire
+        # Boucles infini
             # Game dure jusqu'a temps qu'il y a un pokémon K.O 
             # Afficher les PV des deux pokémon         
             # Le joueur commence 
