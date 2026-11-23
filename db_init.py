@@ -33,10 +33,10 @@ database = client["game_db"]
 
 Characters = database["characters"]
 Monsters = database["monsters"]
-
+Scores = database["scores"]
 
 Characters.drop()
 Monsters.drop()
 
 Characters.insert_many(CharacterList)
-Monsters.insert_many(CharacterList)
+Monsters.insert_many(EnemyList)
