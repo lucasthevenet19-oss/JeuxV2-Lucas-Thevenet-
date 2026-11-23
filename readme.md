@@ -45,22 +45,3 @@
 
     # Victoire ou défaite 
     # Recommencer 
-
-
-# Ajout des améliorations dans la basse de données :
-
-    # Character :
-        # Crée une collection "equipement" ou le personnages pour choisir sont équipements
-            # Arme
-            # Potion 
-            # Bost (Vitesse, Défense, Attaques)
-
-        
-        # Cree une collection "monter de niveau"
-            # A chaque fois que l'héros gagne un combat il gagne de l'XP 
-            # Donc si l'heros est un ou plusieur niveau au dessus du monstres ses attauqes sont plus puissantes m
-    
-    # Monstres :
-
-        # Cree une collection "niveau" 
-            # A chaque apparistion de monstres mettre le monstre est au meme niveau ou 1 en dessous ou 1 au dessus du heros 

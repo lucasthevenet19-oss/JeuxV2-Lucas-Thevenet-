@@ -25,9 +25,9 @@ EnemyList = [
     {"name" : "Golem", "hp" : 250, "defense": 25, "attack" : 30 },
     {"name" : "Vampire", "hp" : 150, "defense": 12, "attack" : 22 },
     {"name" : "Loup-Garou", "hp" : 180, "defense": 18, "attack" : 28 },
-    {"name" : "Squelette", "hp" : 90, "defense": 7, "attack" : 15 }
+    {"name" : "Squelette", "hp" : 90, "defense": 7, "attack" : 15 } 
 ]
-
+   
 client = pymongo.MongoClient("mongodb://localhost:27017")
 database = client["game_db"]
 
