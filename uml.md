@@ -118,5 +118,5 @@ classDiagram
         +VueQuitter()
     }
 
-
+    
 ```
