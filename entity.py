@@ -27,3 +27,5 @@ class Entity:
 
     def __str__(self):
         return f"{self.name} [PV: {self.hp}/{self.maxHp}]"
+
+    
