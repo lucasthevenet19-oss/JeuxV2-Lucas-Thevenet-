@@ -1,4 +1,4 @@
-class game:
+class Game:
     def __init__(self, player, vague, mongoClient=None):
         self.player = player
         self.vague = vague
