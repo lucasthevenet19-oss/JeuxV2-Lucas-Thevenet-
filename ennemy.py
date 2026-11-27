@@ -1,22 +1,28 @@
-class Enemy: 
+import random
+from entity import Entity
+
+
+class Enemy(Entity):
     def __init__(self, name, health, attack_power, difficulty):
-        self.name = name
-        self.health = health
-        self.attack_power = attack_power
+        super().__init__(name, health, health, attack_power, 0)  # defense is set to 0 for enemies
         self.difficulty = difficulty
 
     def attack(self, target):
-        print(f"{self.name} attaque {target.name} avec une puissance de {self.attack_power}.")
+        print(f"{self.name} attaque {target.name} avec une puissance de {self.attack}.")
       
 
     def take_damage(self, damage):
-        self.health -= damage
-        if self.health < 0:
-            self.health = 0
-        print(f"{self.name} a subi {damage} points de dégâts. Santé restante : {self.health}.")
+        self.hp -= damage
+        if self.hp < 0:
+            self.hp = 0
+        print(f"{self.name} a subi {damage} points de dégâts. Santé restante : {self.hp}.")
 
     def is_alive(self):
-        return self.health > 0
+        return self.hp > 0
 
     def is_ko(self):
-        return self.health <= 0
+        return self.hp <= 0
+
+    def drop_lot(self):
+        pass
+

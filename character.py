@@ -21,6 +21,5 @@ class Character:
             self.hp = 0
         print(f"{self.name} prend {amount} dégâts ! PV restants : {self.hp}")
 
-    def __str__(self):
-        return f"{self.name} [HP: {self.hp}/{self.maxHp}, ATK: {self.attack}, DEF: {self.defense}]"
+
 

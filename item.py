@@ -1,3 +1,5 @@
+import random
+
 class Item:
     def __init__(self, name: str, description: str, dropRate: int, rarity: str, item_type: str, stats: dict = None):
         self.name = name
@@ -13,5 +15,3 @@ class Item:
     def GetStats(self):
         return self.stats
 
-    def __str__(self):
-        return f"[{self.rarity}] {self.name} ({self.item_type}) - {self.description}"
