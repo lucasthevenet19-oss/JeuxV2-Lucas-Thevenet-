@@ -1,7 +1,3 @@
-"""Démo manuelle des vues : python demo_vues.py (depuis le dossier JEU2B).
-
-Les données sont écrites en dur, MongoDB n'est pas nécessaire.
-"""
 from affichage import Affichage
 from game_classes import Character, Consumable, Enemy, Equipable
 from model import CharacterSaveDB, MonsterSaveDB, SaveDB, ScoreDB

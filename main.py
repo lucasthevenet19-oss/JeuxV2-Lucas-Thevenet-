@@ -13,6 +13,7 @@ from rich.align import Align
 
 from affichage import Affichage
 from vue import VueEcranTitre
+from model import CharacterSaveDB, MonsterSaveDB, SaveDB, ScoreDB
 
 
 TEAM_SIZE = 3
@@ -234,7 +235,25 @@ def lancer_vague(joueur, equipe, monstre):
 
 		membres_en_vie = recuperer_membres_en_vie(equipe)
 
-		evenements += equipe_attaque_monstre(membres_en_vie, monstre)
+		for membre in membres_en_vie:
+			choix = Affichage.display_vue(
+				VueTourJoueur(equipe, membre, [monstre]),
+				max_index=3
+			)
+
+			if choix == 0:
+				message = infliger_degats(membre, monstre)
+			elif choix == 1:
+				message = "L'utilisation des objets n'est pas encore disponible."
+			else:
+				continue
+
+			evenements.append({
+				"message": message,
+				"team": copy_team(equipe),
+				"monster": copy_entity(monstre)
+			})
+
 		evenements += monstre_attaque_equipe(monstre, equipe)
 
 		afficher_evenements(joueur, evenements)
