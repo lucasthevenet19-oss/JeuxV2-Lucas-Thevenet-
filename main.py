@@ -1,3 +1,4 @@
+from vue import VueEcranTitre, VueTourJoueur
 import builtins
 from time import sleep
 import enum
@@ -9,6 +10,9 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.columns import Columns
 from rich.align import Align
+
+from affichage import Affichage
+from vue import VueEcranTitre
 
 
 TEAM_SIZE = 3

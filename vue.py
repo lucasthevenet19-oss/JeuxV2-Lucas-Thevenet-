@@ -4,8 +4,11 @@ from rich.columns import Columns
 from rich.layout import Layout
 from typing import Callable
 from affichage import Affichage
-from game_classes import Character, Enemy, Item
+from character import Character
+from ennemy import Enemy
+from item import Item
 from model import SaveDB, ScoreDB
+
 OPTIONS_TOUR = ["Attaquer", "Utiliser un objet", "Passer"]
 OPTIONS_ECRAN_TITRE = ["Nouvelle Partie",
                        "Charger Partie", "Leaderboard", "Quitter"]
