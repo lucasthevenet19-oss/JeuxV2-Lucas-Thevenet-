@@ -1,3 +1,6 @@
+import random
+from entity import Entity
+
 class Character:
     def __init__(self, name, hp, attack, defense):
         self.name = name
@@ -20,6 +23,4 @@ class Character:
         if self.hp < 0:
             self.hp = 0
         print(f"{self.name} prend {amount} dégâts ! PV restants : {self.hp}")
-
-
 

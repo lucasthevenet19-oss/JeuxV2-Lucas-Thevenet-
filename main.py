@@ -291,7 +291,7 @@ def afficher_evenements(player, evenements):
 		console.print(titre_tour)
 		console.print(Columns([team, infos, monster]))
 
-		sleep(2)
+		sleep(0.5)
 
 
 def lancer_combat_a_mort(db, joueur, equipe):
