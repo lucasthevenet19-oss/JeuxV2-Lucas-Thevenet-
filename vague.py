@@ -6,10 +6,10 @@ class vague:
     def pick_enemies(self, monsters_list: list):
         self.monsters = monsters_list
 
-    def jouer_vague(self):
+    def play_wave(self):
         print(f"Starting wave {self.vague_actuel} with {len(self.monsters)} monsters.")
 
-    def difficulté(self):
+    def get_difficulty(self):
         return sum(monster.difficulty for monster in self.monsters)
 
     def __str__(self):
