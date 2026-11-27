@@ -1,5 +1,6 @@
 from affichage import Affichage
 from game_classes import Character, Consumable, Enemy, Equipable
+import Character, Consumable, Enemy, Equipable
 from model import CharacterSaveDB, MonsterSaveDB, SaveDB, ScoreDB
 from vues import (
 	VueChargerSauvegarde,

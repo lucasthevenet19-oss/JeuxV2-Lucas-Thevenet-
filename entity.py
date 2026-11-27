@@ -3,7 +3,7 @@ class Entity:
         self.name = name
         self.hp = hp
         self.maxHp = maxHp
-        self.attack = attack
+        self.attack_power = attack
         self.defense = defense
 
 
@@ -21,7 +21,7 @@ class Entity:
             self.hp = self.maxHp
 
     def attack(self, target):
-        target.take_damage(self.attack)
+        target.take_damage(self.attack_power)
 
     def play_turn(self):
         pass
@@ -40,7 +40,7 @@ class Enemy(Entity):
         pass
 
     def __str__(self):
-        return f"Enemy {self.name}: HP={self.hp}/{self.maxHp}, Attack={self.attack}, Defense={self.defense}"
+        return f"Enemy {self.name}: HP={self.hp}/{self.maxHp}, Attack={self.attack_power}, Defense={self.defense}"
 
 
 class Player(Entity):

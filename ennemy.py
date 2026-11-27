@@ -8,8 +8,10 @@ class Enemy(Entity):
         self.difficulty = difficulty
 
     def attack(self, target):
-        print(f"{self.name} attaque {target.name} avec une puissance de {self.attack}.")
-      
+        pv_avant = target.hp
+        super().attack(target)
+        degats = pv_avant - target.hp
+        print(f"{self.name} attaque {target.name} et inflige {degats} dégâts.")
 
     def take_damage(self, damage):
         self.hp -= damage
